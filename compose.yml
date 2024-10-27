@@ -1,0 +1,12 @@
+services:
+  vscode:
+    image: ruanbekker/vscode:python-3.7
+    container_name: vscode
+    ports:
+      - "8443:8443"
+      - "5000:5000"
+    volumes:
+      - ./:/code
+    environment:
+      - PASSWORD=1
+    restart: always

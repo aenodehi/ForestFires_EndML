@@ -1,6 +1,8 @@
 ## ForestFires EndToEndML 
 #### Interactive prediction with Flask app
 
+![FWIpredict app Image](images/FWIpredict.png)
+
 
 ### Setup Instructions
 
